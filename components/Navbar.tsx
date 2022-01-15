@@ -2,22 +2,20 @@ import {
     Box,
     Flex,
     Stack,
-    Heading,
     Image,
     Menu,
     MenuButton,
     MenuItem,
     MenuList,
     Button,
-    useColorMode,
-    useColorModeValue
+    useColorMode
 } from '@chakra-ui/react'
 import { ChevronDownIcon } from '@chakra-ui/icons'
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const Navbar = () => {
-    const { colorMode, toggleColorMode } = useColorMode()
+    const { colorMode } = useColorMode()
     const bgColor = { light: 'gray.300', dark: 'gray.600' }
     const textColor = { light: 'black', dark: 'gray.100' }
     const router = useRouter()
@@ -98,15 +96,6 @@ const Navbar = () => {
                         </Menu>
                     </Box>
                 </Stack>
-               {/*<Box>
-                    <IconButton
-                        aria-label={'Change Color Mode'}
-                        rounded={"full"}
-                        onClick={toggleColorMode}
-                        icon={colorMode === 'light' ? 'moon' : 'sun'}>
-                        Change Color Mode
-                    </IconButton>
-               </Box>*/}
            </Flex>
        </Flex>
     )

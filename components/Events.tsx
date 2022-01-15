@@ -1,4 +1,4 @@
-import {Container, SimpleGrid, Box, Stack, GridItem, Flex, Image, Text, Link} from '@chakra-ui/react'
+import {Container, SimpleGrid, Box, Stack, Image, Text, Link} from '@chakra-ui/react'
 
 const Events = () => {
     return (

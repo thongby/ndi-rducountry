@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, Stack, Box, Flex } from '@chakra-ui/react'
+import { Text, Box, Flex } from '@chakra-ui/react'
 
 const history = () => {
     return (

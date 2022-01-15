@@ -1,12 +1,8 @@
 import {
-    Button,
     Container,
     Box,
-    Flex,
     Heading,
-    Image,
-    useColorMode,
-    useColorModeValue
+    Image
 } from '@chakra-ui/react'
 
 const Header = () => (
