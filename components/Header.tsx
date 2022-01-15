@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 
 const Header = () => (
-    <Container bg={'green.100'} maxW={'xl'} centerContent>
+    <Container bg={'green.200'} maxW={'xl'} centerContent>
         {/*<Box
             borderRadius="lg"
             mb={6}
@@ -21,7 +21,7 @@ const Header = () => (
             Test
         </Box>*/}
         <Box display={{ md: 'flex' }}>
-            <Box mt={'20px'} flexGrow={1}>
+            <Box mt={'2px'} flexGrow={1} borderRadius={'lg'}>
                 <Heading as="h2" variant="page-title">
                     การพัฒนาสู่ประเทศใช้ยาอย่างสมเหตุผล
                 </Heading>

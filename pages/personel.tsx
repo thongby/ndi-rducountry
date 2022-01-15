@@ -2,8 +2,8 @@ import {SimpleGrid, GridItem, FormControl, Input, VStack, Heading, Text, FormLab
 
 const personel = () => {
     return (
-        <VStack>
-            <VStack>
+        <VStack mt={'10'}>
+            <VStack mb={'5'}>
                 <Heading>เจ้าหน้าที่</Heading>
                 <Text>จังหวัด</Text>
             </VStack>

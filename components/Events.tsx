@@ -5,7 +5,7 @@ const Events = () => {
         <Container>
         <Stack>
             <Box>
-                <Box bg={'yellow.300'}>
+                <Box bg={'yellow.300'} textAlign={'center'}>
                     <Text color={'darkgreen'} fontSize={'20px'}>
                         <h1>กิจกรรมยาที่มีในชุมชน</h1>
                     </Text>
