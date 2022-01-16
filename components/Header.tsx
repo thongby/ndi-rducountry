@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react'
 
 const Header = () => (
-    <Container bg={'green.200'} maxW={'xl'} centerContent>
+    <Container bg={'green.200'} w={'100vh'} centerContent>
         {/*<Box
             borderRadius="lg"
             mb={6}
