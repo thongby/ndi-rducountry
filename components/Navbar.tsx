@@ -69,22 +69,17 @@ const Navbar = () => {
                             <MenuList>
                                 <MenuItem>
                                     <Link href={'https://forms.gle/hfdSVy2sZonhtmeA7'}>
-                                    ผู้รับผิดชอบในจังหวัด
+                                    ทีมนำพัฒนาจังหวัด
                                     </Link>
                                 </MenuItem>
                                 <MenuItem>
                                     <Link href={'https://forms.gle/1kZB1tCZ4Vwx1zaJ8'}>
-                                    แผนพัฒนาระยะ 3 ปี
-                                    </Link>
-                                </MenuItem>
-                                <MenuItem>
-                                    <Link href={'https://forms.gle/Fx5fPqkVBu1qoQ3M6'}>
-                                    แผนปฏิบัติการประจำปี
+                                    แผนพัฒนาจังวัดระยะ 3 ปี
                                     </Link>
                                 </MenuItem>
                                 <MenuItem>
                                     <Link href={'https://forms.gle/BohMtePMw27DoTtU9'}>
-                                    พื้นที่เป้าหมาย
+                                    อำเภอเป้าหมาย
                                     </Link>
                                 </MenuItem>
                                 <MenuItem>
