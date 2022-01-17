@@ -74,7 +74,7 @@ const Navbar = () => {
                                 </MenuItem>
                                 <MenuItem>
                                     <Link href={'https://forms.gle/1kZB1tCZ4Vwx1zaJ8'}>
-                                    แผนพัฒนาจังวัดระยะ 3 ปี
+                                    แผนพัฒนาจังหวัดระยะ 3 ปี
                                     </Link>
                                 </MenuItem>
                                 <MenuItem>
