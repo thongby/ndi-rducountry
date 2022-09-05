@@ -87,6 +87,11 @@ const Navbar = () => {
                                     ร้านชำเป้าหมาย
                                     </Link>
                                 </MenuItem>
+                                <MenuItem>
+                                    <Link href={'https://forms.gle/LvURgNM3MAz9y37HA'}>
+                                    ส่งผลการพัฒนนาร้านชำคุณภาพ RDU
+                                    </Link>
+                                </MenuItem>
                             </MenuList>
                         </Menu>
                     </Box>
